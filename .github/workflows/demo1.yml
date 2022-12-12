@@ -3,6 +3,7 @@ on:
   pull-request:
     types:
       - opened
+  workflows_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
