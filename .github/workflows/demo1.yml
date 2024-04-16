@@ -11,8 +11,7 @@ on:
     branches:
       - main 
   workflow_dispatch:
-  paths:
-    - '.github/workflows/*' 
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
